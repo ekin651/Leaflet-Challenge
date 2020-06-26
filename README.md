@@ -10,7 +10,7 @@ The USGS is interested in building a new set of tools that will allow them visua
 
 ### Before You Begin
 
-1. Create a new repository for this project called `leaflet-challenge`. **Do not add this homework to an existing repository**.
+1. Create a new repository for this project called `leaflet-challenge`. 
 
 2. Clone the new repository to your computer.
 
@@ -76,8 +76,5 @@ Your final product will be assessed on the following metrics:
 
 * Professionalism
 
-**Good luck!**
 
-### Copyright
 
-Trilogy Education Services © 2019. All Rights Reserved.
