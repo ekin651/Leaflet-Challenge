@@ -14,8 +14,7 @@ The USGS is interested in building a new set of tools that will allow them visua
 
 2. Clone the new repository to your computer.
 
-3. Inside your local git repository, create a directory for the Leaflet challenge. Use the folder names to correspond to the challenges: **Leaflet-Step-1** and **Leaflet-Step-2**.
-
+3. Inside your local git repository, create a directory for the Leaflet challenge. Use the folder names to correspond to the challenges: **Leaflet-Step-1**
 4. This utilizes both **html** and **Javascript** so be sure to add all the necessary files. These will be the main files to run for analysis.
 
 5. Push the above changes to GitHub or GitLab.
@@ -31,7 +30,7 @@ Your first task is to visualize an earthquake data set.
 
    ![3-Data](Images/3-Data.png)
 
-   The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Visit the [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page and pick a data set to visualize. When you click on a data set, for example 'All Earthquakes from the Past 7 Days', you will be given a JSON representation of that data. You will be using the URL of this JSON to pull in the data for our visualization.
+   The USGS provides earthquake data in a number of different formats, updated every 5 minutes. Visit the [USGS GeoJSON Feed](http://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php) page and pick a data set to visualize. Click on a data set, 'All Earthquakes from the Past 7 Days',I use the URL of this JSON to pull in the data for our visualization.
 
    ![4-JSON](Images/4-JSON.png)
 
@@ -39,13 +38,13 @@ Your first task is to visualize an earthquake data set.
 
    Create a map using Leaflet that plots all of the earthquakes from your data set based on their longitude and latitude.
 
-   * Your data markers should reflect the magnitude of the earthquake in their size and color. Earthquakes with higher magnitudes should appear larger and darker in color.
+   * Data markers should reflect the magnitude of the earthquake in their size and color. Earthquakes with higher magnitudes should appear larger and darker in color.
 
    * Include popups that provide additional information about the earthquake when a marker is clicked.
 
-   * Create a legend that will provide context for your map data.
+   * Create a legend that will provide context for mymap data.
 
-   * Your visualization should look something like the map above.
+   * My visualization should look something like the map above.
 
 - - -
 
