@@ -85,23 +85,23 @@ d3.json("https://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_week.geoj
 
         var grades = [0, 1, 2, 3, 4, 5];
         var colors = [
-            "#98ee00",
-            "#d4ee00",
+            "#e91c1c",
+            "#ec683c",
+            "#f5a700",
             "#eecc00",
-            "#ee9c00",
-            "#ea822c",
-            "#ea2c2c"
+            "#d4ee00",
+            "#a3ff05"
         ];
 
-        // Looping through our intervals to generate a label with a colored square for each interval.
-        for (var i = 0; i < grades.length; i++) {
+
+        for (var x = 0; x < grades.length; x++) {
             div.innerHTML +=
-                "<i style='background: " + colors[i] + "></i> " +
-                grades[i] + (grades[i + 1] ? "&ndash;" + grades[i + 1] + "<br>" : "+");
+                "<x style='background: " + colors[x] + "></x> " +
+                grades[x] + (grades[x + 1] ? "&ndash;" + grades[x + 1] + "<br>" : "+");
         }
         return div;
     };
 
-    // Finally, we our legend to the map.
+
     legend.addTo(map);
 });
