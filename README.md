@@ -16,11 +16,10 @@ The USGS is interested in building a new set of tools that will allow them visua
 
 3. Inside your local git repository, create a directory for the Leaflet challenge. Use the folder names to correspond to the challenges: **Leaflet-Step-1** and **Leaflet-Step-2**.
 
-4. This homeworks utilizes both **html** and **Javascript** so be sure to add all the necessary files. These will be the main files to run for analysis.
+4. This utilizes both **html** and **Javascript** so be sure to add all the necessary files. These will be the main files to run for analysis.
 
 5. Push the above changes to GitHub or GitLab.
 
-## Your Task
 
 ### Level 1: Basic Visualization
 
@@ -50,25 +49,11 @@ Your first task is to visualize an earthquake data set.
 
 - - -
 
-### Level 2: More Data (Optional)
 
-![5-Advanced](Images/5-Advanced.png)
-
-The USGS wants you to plot a second data set on your map to illustrate the relationship between tectonic plates and seismic activity. You will need to pull in a second data set and visualize it along side your original set of data. Data on tectonic plates can be found at <https://github.com/fraxen/tectonicplates>.
-
-In this step we are going to..
-
-* Plot a second data set on our map.
-
-* Add a number of base maps to choose from as well as separate out our two different data sets into overlays that can be turned on and off independently.
-
-* Add layer controls to our map.
-
-- - -
 
 ### Assessment
 
-Your final product will be assessed on the following metrics:
+Final product will be assessed on the following metrics:
 
 * Completion of assigned tasks
 
